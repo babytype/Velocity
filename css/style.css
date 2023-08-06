@@ -15,6 +15,31 @@ p{
     line-height: 1.8;
 }
 
+.hide{
+    display: none !important;
+}
+
+.title-wrapper {
+    margin-bottom: 60px; 
+}
+
+.title {
+    margin-bottom: 17px;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #676770;
+}
+.subtitle {
+    font-size: 17px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color:#8e8e9c
+}
+
+
 /* ---------- Header ---------- */
 .header {
     padding: 20px 0;
@@ -131,4 +156,44 @@ margin-left: 20px;
 .link:active{
     background-color: rgba(0,0,0, 0.2);
     border-color:rgba(0,0,0,0.5);
+}
+
+
+/* ---------- About (what we do) ---------- */
+
+.about {
+    text-align: center;
+}
+.common-section {
+    text-align: center;
+    padding: 80px 0;
+}
+.container {
+}
+
+
+.about .cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.about .card {
+    padding: 35px 15px 20px;
+    width: 300px;
+    border: 1px solid #dcebf7;
+    border-radius: 5px;
+}
+.about .card img{
+    margin-bottom: 20px;
+    width: 94px 94px;
+    object-fit: contain;
+}
+
+.about .card h4{
+    margin-bottom: 15px;
+
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: 676770;
 }
