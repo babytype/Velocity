@@ -121,7 +121,7 @@ p {
     text-align: center;
 
     background-color: #2a2e3a;
-    background-image:  url(/img/welcome-bg.jpg);
+    background-image:  url("../img/welcome-bg.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -228,7 +228,7 @@ justify-content: space-between;
 }
 
 .services .card {
- width: 45%;
+width: 45%;
 }
 
 .services .card img {
@@ -360,7 +360,7 @@ margin-top: 15px;
     gap: 20px 40px;
 }
 
-  .footer__desc-container > * {
+.footer__desc-container > * {
     width: 30%;
     min-width: 220px;
 }
@@ -369,7 +369,8 @@ margin-top: 15px;
     width: calc(100% - 34px);
 }
 
-.footer__social img {     margin-right: 10px;
+.footer__social img {
+    margin-right: 10px;
 }
 
 .footer__about {
